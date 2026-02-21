@@ -1,25 +1,33 @@
--- PROJETO: BANCO DE DADOS - OFICINA MECÂNICA
+# 🛠 Projeto Banco de Dados - Oficina Mecânica
 
-DROP DATABASE IF EXISTS oficina_mecanica;
-CREATE DATABASE oficina_mecanica;
-USE oficina_mecanica;
+## 📌 Descrição do Projeto
+Este projeto tem como objetivo desenvolver um banco de dados relacional completo para o contexto de uma oficina mecânica, contemplando as etapas de:
 
-CREATE TABLE clientes (
-    id_cliente INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    telefone VARCHAR(20),
-    email VARCHAR(100),
-    endereco VARCHAR(150)
-);
+- Modelagem conceitual (Diagrama Entidade-Relacionamento - ER)
+- Transformação para o modelo lógico (relacional)
+- Implementação física utilizando SQL
+- Inserção de dados para testes
+- Criação de consultas SQL avançadas
 
-CREATE TABLE veiculos (
-    id_veiculo INT AUTO_INCREMENT PRIMARY KEY,
-    placa VARCHAR(10) UNIQUE NOT NULL,
-    modelo VARCHAR(50),
-    marca VARCHAR(50),
-    ano INT,
-    id_cliente INT,
-    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
-);
+O projeto foi desenvolvido como desafio prático de modelagem e implementação de banco de dados.
 
-...
+---
+
+## 🎯 Objetivos
+- Criar um esquema lógico consistente para uma oficina mecânica.
+- Implementar o banco utilizando MySQL/MariaDB.
+- Inserir dados reais para simulação.
+- Criar consultas SQL completas usando:
+  - SELECT
+  - WHERE
+  - ORDER BY
+  - GROUP BY
+  - HAVING
+  - JOIN
+  - Atributos derivados
+
+---
+
+## 🗂 Estrutura do Repositório
+
+
