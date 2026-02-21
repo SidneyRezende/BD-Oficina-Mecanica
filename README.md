@@ -30,4 +30,11 @@ O projeto foi desenvolvido como desafio prático de modelagem e implementação 
 
 ## 🗂 Estrutura do Repositório
 
+BD-Oficina-Mecanica/
+├── README.md
+├── oficina_completo.sql
+├── diagramas/
+│ └── diagrama_er.png
+└── checklist/
+└── Checklist_Entrega.pdf
 
